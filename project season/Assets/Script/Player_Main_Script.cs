@@ -66,7 +66,8 @@ public class PlayerMagnetController : MonoBehaviour
     private void HandleJump()
     {
         
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded || Input.GetKeyDown(KeyCode.JoystickButton1) && isGrounded)
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
@@ -75,11 +76,11 @@ public class PlayerMagnetController : MonoBehaviour
     private void HandlePolarity()
     {
         
-        if (Input.GetKey(KeyCode.N))
+        if (Input.GetKey(KeyCode.N) || Input.GetKey(KeyCode.JoystickButton2))
         {
             currentMode = MagnetMode.North;
         }
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.JoystickButton3))
         {
             currentMode = MagnetMode.South;
         }
@@ -127,8 +128,8 @@ public class PlayerMagnetController : MonoBehaviour
 
     private void HandleInteraction()
     {
-        // If the player presses 'E' and is inside a Lever's trigger zone
-        if (Input.GetKeyDown(KeyCode.E) && activeLever != null)
+        
+        if (Input.GetKeyDown(KeyCode.E) && activeLever != null || Input.GetKeyDown(KeyCode.JoystickButton0) && activeLever != null)
         {
             activeLever.ActivateLever();
         }
