@@ -286,7 +286,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.600006, y: 2.2496805}
+  m_AnchoredPosition: {x: -10.6, y: -10.3}
   m_SizeDelta: {x: 640, y: 85.3761}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &516455576
@@ -365,8 +365,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.600006, y: 73.64972}
-  m_SizeDelta: {x: 640, y: 57.424}
+  m_AnchoredPosition: {x: -10.600006, y: 57.949738}
+  m_SizeDelta: {x: 640, y: 88.824}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &580161924
 MonoBehaviour:
@@ -401,7 +401,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Programmers : \n--ATMANI MEROUANE (chmrne)\n\n\n"
+  m_Text: "Programmers : \n--ATMANI MEROUANE (chmrne)\n--BAAZIZ YOUCEF (BAIKEN)\n\n\n"
 --- !u!222 &580161925
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -523,7 +523,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.6, y: 116.3}
+  m_AnchoredPosition: {x: -10.6, y: 133.3}
   m_SizeDelta: {x: 640, y: 27.868}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &761596379
