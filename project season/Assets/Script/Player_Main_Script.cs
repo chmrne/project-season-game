@@ -117,11 +117,11 @@ public class PlayerMagnetController : MonoBehaviour
             
             if (samePole)
             {
-                boxRb.linearVelocity = -direction * 1.5f; // Push away
+                boxRb.linearVelocity = -direction * 1.5f; 
             }
             else
             {
-                boxRb.linearVelocity = direction * 1.5f;  // Pull towards
+                boxRb.linearVelocity = direction * 1.5f;  
             }
         }
     }
