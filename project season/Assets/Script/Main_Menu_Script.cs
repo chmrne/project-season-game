@@ -4,7 +4,7 @@ public class Main_Menu_Script : MonoBehaviour
 {
     public void OnStartClick()
     {
-        SceneManager.LoadScene("Door Open and Close scene");
+        SceneManager.LoadScene("Level 1");
     }
     public void OnOptionsClick()
     {
